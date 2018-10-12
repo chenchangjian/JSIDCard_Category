@@ -1,0 +1,662 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AE9AFA28EBC2B4F308D0A69 /* Pods_JSIDCard_Category.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B482FDE861907A9DBBAFA0 /* Pods_JSIDCard_Category.framework */; };
+		66C5DD69216D9DEB00413A6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C5DD68216D9DEB00413A6A /* AppDelegate.m */; };
+		66C5DD6C216D9DEB00413A6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C5DD6B216D9DEB00413A6A /* ViewController.m */; };
+		66C5DD6F216D9DEB00413A6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C5DD6D216D9DEB00413A6A /* Main.storyboard */; };
+		66C5DD71216D9DEC00413A6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66C5DD70216D9DEC00413A6A /* Assets.xcassets */; };
+		66C5DD74216D9DEC00413A6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66C5DD72216D9DEC00413A6A /* LaunchScreen.storyboard */; };
+		66C5DD77216D9DEC00413A6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C5DD76216D9DEC00413A6A /* main.m */; };
+		66C5DD81216D9DEC00413A6A /* JSIDCard_CategoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C5DD80216D9DEC00413A6A /* JSIDCard_CategoryTests.m */; };
+		66C5DD8C216D9DEC00413A6A /* JSIDCard_CategoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C5DD8B216D9DEC00413A6A /* JSIDCard_CategoryUITests.m */; };
+		66D7BE37216D9F7F00FAE319 /* CTMediator+JSIDCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 66D7BE36216D9F7E00FAE319 /* CTMediator+JSIDCard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66C5DD7D216D9DEC00413A6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66C5DD5C216D9DEB00413A6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66C5DD63216D9DEB00413A6A;
+			remoteInfo = JSIDCard_Category;
+		};
+		66C5DD88216D9DEC00413A6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66C5DD5C216D9DEB00413A6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66C5DD63216D9DEB00413A6A;
+			remoteInfo = JSIDCard_Category;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56EE9A1EA763E82A368F35AE /* Pods-JSIDCard_Category.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSIDCard_Category.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSIDCard_Category/Pods-JSIDCard_Category.debug.xcconfig"; sourceTree = "<group>"; };
+		66C5DD64216D9DEB00413A6A /* JSIDCard_Category.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSIDCard_Category.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C5DD67216D9DEB00413A6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66C5DD68216D9DEB00413A6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66C5DD6A216D9DEB00413A6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66C5DD6B216D9DEB00413A6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66C5DD6E216D9DEB00413A6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66C5DD70216D9DEC00413A6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66C5DD73216D9DEC00413A6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66C5DD75216D9DEC00413A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C5DD76216D9DEC00413A6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66C5DD7C216D9DEC00413A6A /* JSIDCard_CategoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSIDCard_CategoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C5DD80216D9DEC00413A6A /* JSIDCard_CategoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSIDCard_CategoryTests.m; sourceTree = "<group>"; };
+		66C5DD82216D9DEC00413A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66C5DD87216D9DEC00413A6A /* JSIDCard_CategoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSIDCard_CategoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66C5DD8B216D9DEC00413A6A /* JSIDCard_CategoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSIDCard_CategoryUITests.m; sourceTree = "<group>"; };
+		66C5DD8D216D9DEC00413A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66D7BE35216D9F7E00FAE319 /* CTMediator+JSIDCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+JSIDCard.h"; sourceTree = "<group>"; };
+		66D7BE36216D9F7E00FAE319 /* CTMediator+JSIDCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+JSIDCard.m"; sourceTree = "<group>"; };
+		744112C2E104A8BB5BF27E77 /* Pods-JSIDCard_Category.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSIDCard_Category.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSIDCard_Category/Pods-JSIDCard_Category.release.xcconfig"; sourceTree = "<group>"; };
+		89B482FDE861907A9DBBAFA0 /* Pods_JSIDCard_Category.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSIDCard_Category.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66C5DD61216D9DEB00413A6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AE9AFA28EBC2B4F308D0A69 /* Pods_JSIDCard_Category.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C5DD79216D9DEC00413A6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C5DD84216D9DEC00413A6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EAAA9C1577B694EFE8989D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89B482FDE861907A9DBBAFA0 /* Pods_JSIDCard_Category.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66C5DD5B216D9DEB00413A6A = {
+			isa = PBXGroup;
+			children = (
+				66C5DD66216D9DEB00413A6A /* JSIDCard_Category */,
+				66C5DD7F216D9DEC00413A6A /* JSIDCard_CategoryTests */,
+				66C5DD8A216D9DEC00413A6A /* JSIDCard_CategoryUITests */,
+				66C5DD65216D9DEB00413A6A /* Products */,
+				BC6E756241296E0299B96D7F /* Pods */,
+				5EAAA9C1577B694EFE8989D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		66C5DD65216D9DEB00413A6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66C5DD64216D9DEB00413A6A /* JSIDCard_Category.app */,
+				66C5DD7C216D9DEC00413A6A /* JSIDCard_CategoryTests.xctest */,
+				66C5DD87216D9DEC00413A6A /* JSIDCard_CategoryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66C5DD66216D9DEB00413A6A /* JSIDCard_Category */ = {
+			isa = PBXGroup;
+			children = (
+				66D7BE34216D9F5700FAE319 /* JSIDCard_Category */,
+				66C5DD67216D9DEB00413A6A /* AppDelegate.h */,
+				66C5DD68216D9DEB00413A6A /* AppDelegate.m */,
+				66C5DD6A216D9DEB00413A6A /* ViewController.h */,
+				66C5DD6B216D9DEB00413A6A /* ViewController.m */,
+				66C5DD6D216D9DEB00413A6A /* Main.storyboard */,
+				66C5DD70216D9DEC00413A6A /* Assets.xcassets */,
+				66C5DD72216D9DEC00413A6A /* LaunchScreen.storyboard */,
+				66C5DD75216D9DEC00413A6A /* Info.plist */,
+				66C5DD76216D9DEC00413A6A /* main.m */,
+			);
+			path = JSIDCard_Category;
+			sourceTree = "<group>";
+		};
+		66C5DD7F216D9DEC00413A6A /* JSIDCard_CategoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				66C5DD80216D9DEC00413A6A /* JSIDCard_CategoryTests.m */,
+				66C5DD82216D9DEC00413A6A /* Info.plist */,
+			);
+			path = JSIDCard_CategoryTests;
+			sourceTree = "<group>";
+		};
+		66C5DD8A216D9DEC00413A6A /* JSIDCard_CategoryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66C5DD8B216D9DEC00413A6A /* JSIDCard_CategoryUITests.m */,
+				66C5DD8D216D9DEC00413A6A /* Info.plist */,
+			);
+			path = JSIDCard_CategoryUITests;
+			sourceTree = "<group>";
+		};
+		66D7BE34216D9F5700FAE319 /* JSIDCard_Category */ = {
+			isa = PBXGroup;
+			children = (
+				66D7BE35216D9F7E00FAE319 /* CTMediator+JSIDCard.h */,
+				66D7BE36216D9F7E00FAE319 /* CTMediator+JSIDCard.m */,
+			);
+			path = JSIDCard_Category;
+			sourceTree = "<group>";
+		};
+		BC6E756241296E0299B96D7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56EE9A1EA763E82A368F35AE /* Pods-JSIDCard_Category.debug.xcconfig */,
+				744112C2E104A8BB5BF27E77 /* Pods-JSIDCard_Category.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66C5DD63216D9DEB00413A6A /* JSIDCard_Category */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C5DD90216D9DEC00413A6A /* Build configuration list for PBXNativeTarget "JSIDCard_Category" */;
+			buildPhases = (
+				744F9E544C2111C5023D6BE1 /* [CP] Check Pods Manifest.lock */,
+				66C5DD60216D9DEB00413A6A /* Sources */,
+				66C5DD61216D9DEB00413A6A /* Frameworks */,
+				66C5DD62216D9DEB00413A6A /* Resources */,
+				C6F656901BC31B7E3DA7F617 /* [CP] Embed Pods Frameworks */,
+				585D24CC717E75684C0BB9CE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSIDCard_Category;
+			productName = JSIDCard_Category;
+			productReference = 66C5DD64216D9DEB00413A6A /* JSIDCard_Category.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66C5DD7B216D9DEC00413A6A /* JSIDCard_CategoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C5DD93216D9DEC00413A6A /* Build configuration list for PBXNativeTarget "JSIDCard_CategoryTests" */;
+			buildPhases = (
+				66C5DD78216D9DEC00413A6A /* Sources */,
+				66C5DD79216D9DEC00413A6A /* Frameworks */,
+				66C5DD7A216D9DEC00413A6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66C5DD7E216D9DEC00413A6A /* PBXTargetDependency */,
+			);
+			name = JSIDCard_CategoryTests;
+			productName = JSIDCard_CategoryTests;
+			productReference = 66C5DD7C216D9DEC00413A6A /* JSIDCard_CategoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66C5DD86216D9DEC00413A6A /* JSIDCard_CategoryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66C5DD96216D9DEC00413A6A /* Build configuration list for PBXNativeTarget "JSIDCard_CategoryUITests" */;
+			buildPhases = (
+				66C5DD83216D9DEC00413A6A /* Sources */,
+				66C5DD84216D9DEC00413A6A /* Frameworks */,
+				66C5DD85216D9DEC00413A6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66C5DD89216D9DEC00413A6A /* PBXTargetDependency */,
+			);
+			name = JSIDCard_CategoryUITests;
+			productName = JSIDCard_CategoryUITests;
+			productReference = 66C5DD87216D9DEC00413A6A /* JSIDCard_CategoryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66C5DD5C216D9DEB00413A6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ccj;
+				TargetAttributes = {
+					66C5DD63216D9DEB00413A6A = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+					};
+					66C5DD7B216D9DEC00413A6A = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66C5DD63216D9DEB00413A6A;
+					};
+					66C5DD86216D9DEC00413A6A = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 66C5DD63216D9DEB00413A6A;
+					};
+				};
+			};
+			buildConfigurationList = 66C5DD5F216D9DEB00413A6A /* Build configuration list for PBXProject "JSIDCard_Category" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66C5DD5B216D9DEB00413A6A;
+			productRefGroup = 66C5DD65216D9DEB00413A6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66C5DD63216D9DEB00413A6A /* JSIDCard_Category */,
+				66C5DD7B216D9DEC00413A6A /* JSIDCard_CategoryTests */,
+				66C5DD86216D9DEC00413A6A /* JSIDCard_CategoryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66C5DD62216D9DEB00413A6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C5DD74216D9DEC00413A6A /* LaunchScreen.storyboard in Resources */,
+				66C5DD71216D9DEC00413A6A /* Assets.xcassets in Resources */,
+				66C5DD6F216D9DEB00413A6A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C5DD7A216D9DEC00413A6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C5DD85216D9DEC00413A6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		585D24CC717E75684C0BB9CE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSIDCard_Category/Pods-JSIDCard_Category-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		744F9E544C2111C5023D6BE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JSIDCard_Category-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6F656901BC31B7E3DA7F617 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JSIDCard_Category/Pods-JSIDCard_Category-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSIDCard_Category/Pods-JSIDCard_Category-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66C5DD60216D9DEB00413A6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C5DD6C216D9DEB00413A6A /* ViewController.m in Sources */,
+				66C5DD77216D9DEC00413A6A /* main.m in Sources */,
+				66C5DD69216D9DEB00413A6A /* AppDelegate.m in Sources */,
+				66D7BE37216D9F7F00FAE319 /* CTMediator+JSIDCard.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C5DD78216D9DEC00413A6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C5DD81216D9DEC00413A6A /* JSIDCard_CategoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66C5DD83216D9DEC00413A6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C5DD8C216D9DEC00413A6A /* JSIDCard_CategoryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66C5DD7E216D9DEC00413A6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66C5DD63216D9DEB00413A6A /* JSIDCard_Category */;
+			targetProxy = 66C5DD7D216D9DEC00413A6A /* PBXContainerItemProxy */;
+		};
+		66C5DD89216D9DEC00413A6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66C5DD63216D9DEB00413A6A /* JSIDCard_Category */;
+			targetProxy = 66C5DD88216D9DEC00413A6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66C5DD6D216D9DEB00413A6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66C5DD6E216D9DEB00413A6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66C5DD72216D9DEC00413A6A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66C5DD73216D9DEC00413A6A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66C5DD8E216D9DEC00413A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		66C5DD8F216D9DEC00413A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66C5DD91216D9DEC00413A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56EE9A1EA763E82A368F35AE /* Pods-JSIDCard_Category.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R87CBD4U23;
+				INFOPLIST_FILE = JSIDCard_Category/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fenghuangjinfu.FengYingXin.JSIDCard-Category";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66C5DD92216D9DEC00413A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 744112C2E104A8BB5BF27E77 /* Pods-JSIDCard_Category.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R87CBD4U23;
+				INFOPLIST_FILE = JSIDCard_Category/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fenghuangjinfu.FengYingXin.JSIDCard-Category";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66C5DD94216D9DEC00413A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R87CBD4U23;
+				INFOPLIST_FILE = JSIDCard_CategoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fenghuangjinfu.FengYingXin.JSIDCard-CategoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSIDCard_Category.app/JSIDCard_Category";
+			};
+			name = Debug;
+		};
+		66C5DD95216D9DEC00413A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R87CBD4U23;
+				INFOPLIST_FILE = JSIDCard_CategoryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fenghuangjinfu.FengYingXin.JSIDCard-CategoryTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JSIDCard_Category.app/JSIDCard_Category";
+			};
+			name = Release;
+		};
+		66C5DD97216D9DEC00413A6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R87CBD4U23;
+				INFOPLIST_FILE = JSIDCard_CategoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fenghuangjinfu.FengYingXin.JSIDCard-CategoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JSIDCard_Category;
+			};
+			name = Debug;
+		};
+		66C5DD98216D9DEC00413A6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R87CBD4U23;
+				INFOPLIST_FILE = JSIDCard_CategoryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.fenghuangjinfu.FengYingXin.JSIDCard-CategoryUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JSIDCard_Category;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66C5DD5F216D9DEB00413A6A /* Build configuration list for PBXProject "JSIDCard_Category" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C5DD8E216D9DEC00413A6A /* Debug */,
+				66C5DD8F216D9DEC00413A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C5DD90216D9DEC00413A6A /* Build configuration list for PBXNativeTarget "JSIDCard_Category" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C5DD91216D9DEC00413A6A /* Debug */,
+				66C5DD92216D9DEC00413A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C5DD93216D9DEC00413A6A /* Build configuration list for PBXNativeTarget "JSIDCard_CategoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C5DD94216D9DEC00413A6A /* Debug */,
+				66C5DD95216D9DEC00413A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66C5DD96216D9DEC00413A6A /* Build configuration list for PBXNativeTarget "JSIDCard_CategoryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C5DD97216D9DEC00413A6A /* Debug */,
+				66C5DD98216D9DEC00413A6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66C5DD5C216D9DEB00413A6A /* Project object */;
+}
