@@ -24,6 +24,6 @@ NSString * const kCTMediatorTargetJSCashLoanCompleted = @"JSIDCardViewController
     /*
     AViewController *viewController = [[AViewController alloc] init];
     */
-    return [self performTarget:kCTMediatorTargetJSCashLoanCompleted action:kCTMediatorTargetJSCashLoanCompleted params:nil shouldCacheTarget:NO];
+    return [self performTarget:kCTMediatorTargetJSIDCardCompleted action:kCTMediatorTargetJSCashLoanCompleted params:nil shouldCacheTarget:NO];
 }
 @end
