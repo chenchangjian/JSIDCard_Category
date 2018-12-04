@@ -9,9 +9,9 @@
 #import "CTMediator+JSIDCard.h"
 
 NSString * const kCTMediatorTargetJSIDCardCompleted = @"JSIDCard";
-NSString * const kCTMediatorTargetJSCashLoanCompleted = @"JSCashLoanCompleted";
-
 NSString * const kCTMediatorActionJSIDCardViewControllerr = @"JSIDCardViewController";
+NSString * const kCTMediatorTargetJSCashLoanCompleted = @"JSIDCardViewControllerToJSCardInfoVC";
+
 @implementation CTMediator (JSIDCard)
 - (UIViewController *)JSIDCard_aViewControllerWithParams:(NSDictionary *)params{
     /*
@@ -24,6 +24,6 @@ NSString * const kCTMediatorActionJSIDCardViewControllerr = @"JSIDCardViewContro
     /*
     AViewController *viewController = [[AViewController alloc] init];
     */
-    return [self performTarget:kCTMediatorTargetJSCashLoanCompleted action:@"viewController" params:nil shouldCacheTarget:NO];
+    return [self performTarget:kCTMediatorTargetJSCashLoanCompleted action:kCTMediatorTargetJSCashLoanCompleted params:nil shouldCacheTarget:NO];
 }
 @end
